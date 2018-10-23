@@ -8,14 +8,14 @@ git config --global user.email sam@example.com
 
 Create a new local repository	
 ## git init
-
 Check out a repository	Create a working copy of a local repository:	
+
 ## git clone /path/to/repository
-
 For a remote server, use:	
-## git clone username@host:/path/to/repository
 
+## git clone username@host:/path/to/repository
 Add files	Add one or more files to staging (index):	
+
 ## git add <filename>
 
 ## git add *
@@ -61,8 +61,8 @@ To merge a different branch into your active branch:
 View all the merge conflicts:
 View the conflicts against the base file:
 
-Preview changes, before merging:
 
+Preview changes, before merging:
 ## git diff
 ## git diff --base <filename>
 
